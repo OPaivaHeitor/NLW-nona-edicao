@@ -4,10 +4,6 @@ Observação: para rodar o backend, crie uma cópia do arquivo .env.example e o 
 
 npm i
 
-npx prisma init --datasource-provider sqlite
-
-npx prisma migrate dev
-
 npm run dev
 
 npx prisma studio
